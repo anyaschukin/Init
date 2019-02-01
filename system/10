@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    10                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aschukin <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/01 16:25:59 by aschukin          #+#    #+#              #
+#    Updated: 2019/02/01 16:26:01 by aschukin         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# A partition table is a table maintained on disk by the operating system 
+# describing the partitions on that disk.
+
+sudo fdisk -l

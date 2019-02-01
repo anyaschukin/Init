@@ -1,0 +1,26 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: aschukin <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/01 16:27:13 by aschukin          #+#    #+#              #
+#    Updated: 2019/02/01 16:27:16 by aschukin         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# login to the system as a root user
+ssh root@server_ip_address
+
+# to change to a new user
+su - username
+
+# to check
+sudo whoami
+
+#or and type the pass
+ssh <domainuser>@<hostname>
+
+#in graphic session:
+#login with new user and type the password
